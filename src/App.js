@@ -1,10 +1,12 @@
 import './App.css';
+import Take01 from '../SVG/Take01.jpg';
 
 function App() {
   return (
     <div className="App">
-      hello i am img slide
-      nice too meet you!
+      <div className="slide">
+        <img src={Take01} alt="take01" / >
+      </div>
     </div>
   );
 }
