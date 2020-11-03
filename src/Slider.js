@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './Slider.css';
 
 const Slider = () => {
     return(
-        <div>
+        <div className="container">
             Slider
+        
         </div>
     )
 }
