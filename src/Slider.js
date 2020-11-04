@@ -7,7 +7,7 @@ const Slider = () => {
             Slider
         
         </div>
-    )
+    );
 }
 
 export default Slider;
