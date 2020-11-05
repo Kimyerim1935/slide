@@ -1,11 +1,11 @@
 import './App.css';
-import Slider from './Slider';
+import ImgSlider from './ImgSlider';
 
 
 function App() {
   return (
     <div className="App">
-          <Slider / >
+          <ImgSlider / >
 
     </div>
   );
