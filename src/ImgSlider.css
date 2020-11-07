@@ -1,28 +1,22 @@
-
-  .slides .slick-prev,
-  .slides .slick-next {
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-  }
-  
-  
-  .slides {
+.img-slide{
+    width: 300px;
+    height: 280px;
+    display: flex;
     position: relative;
-  }
-  
-  .slides .slick-prev,
-  .slides .slick-next {
+    overflow: hidden;
+}
+
+.slide-image{
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 50%;
-    z-index:1;
-  }
-  
-  .slides .slick-prev {
-    left: 5%;
-  }
-  
-  .slides .slick-next {
-    right: 5%;
-  }
-  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
