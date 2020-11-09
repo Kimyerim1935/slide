@@ -3,15 +3,15 @@ import 'swiper/swiper-bundle.css'
 import Swiper from 'react-id-swiper';
 import './ImgSlider.css';
 
-import Take01 from './SVG/Take01.jpg';
-import Take02 from './SVG/Take02.jpg';
-import Take03 from './SVG/Take03.jpg';
-import Take04 from './SVG/Take04.jpg';
-import Take05 from './SVG/Take05.jpg';
-import Take06 from './SVG/Take06.jpg';
-import Take07 from './SVG/Take07.jpg';
-import Take08 from './SVG/Take08.jpg';
-import Take09 from './SVG/Take09.jpg';
+import Eat01 from './SVG/Eat01.jpg';
+import Eat02 from './SVG/Eat02.jpg';
+import Eat03 from './SVG/Eat03.jpg';
+import Eat04 from './SVG/Eat04.jpg';
+import Eat05 from './SVG/Eat05.jpg';
+import Eat06 from './SVG/Eat06.jpg';
+import Eat07 from './SVG/Eat07.jpg';
+import Eat08 from './SVG/Eat08.jpg';
+import Eat09 from './SVG/Eat09.jpg';
 
 const ImgSliderConfigs = {
     contaimerClass:"swiper-contaimer img-slider",
@@ -34,7 +34,7 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take01} alt="img01"/>
+                 <img src={Eat01} alt="img01"/>
              </div>
        </div>
        <div className="img-slide">
@@ -43,7 +43,7 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take02} alt="img02"/>
+                 <img src={Eat02} alt="img02"/>
              </div>
        </div>
        <div className="img-slide">
@@ -52,17 +52,7 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take03} alt="img03"/>
-             </div>
-       </div>
-
-       <div className="img-slide">
-            <div
-             className="slide-image"
-             data-swiper-parallax={parallaxAmount}
-             data-swiper-parallax-opacity={parallaxOpacity}
-             >
-                 <img src={Take04} alt="img04"/>
+                 <img src={Eat03} alt="img03"/>
              </div>
        </div>
 
@@ -72,7 +62,17 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take05} alt="img05"/>
+                 <img src={Eat04} alt="img04"/>
+             </div>
+       </div>
+
+       <div className="img-slide">
+            <div
+             className="slide-image"
+             data-swiper-parallax={parallaxAmount}
+             data-swiper-parallax-opacity={parallaxOpacity}
+             >
+                 <img src={Eat05} alt="img05"/>
              </div>
        </div>
        <div className="img-slide">
@@ -81,7 +81,7 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take06} alt="img06"/>
+                 <img src={Eat06} alt="img06"/>
              </div>
          </div>
          <div className="img-slide">
@@ -90,17 +90,7 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take07} alt="img07"/>
-             </div>
-         </div>
-
-         <div className="img-slide">
-            <div
-             className="slide-image"
-             data-swiper-parallax={parallaxAmount}
-             data-swiper-parallax-opacity={parallaxOpacity}
-             >
-                 <img src={Take08} alt="img08"/>
+                 <img src={Eat07} alt="img07"/>
              </div>
          </div>
 
@@ -110,7 +100,17 @@ const ImgSlider2 =() =>{
              data-swiper-parallax={parallaxAmount}
              data-swiper-parallax-opacity={parallaxOpacity}
              >
-                 <img src={Take09} alt="img09"/>
+                 <img src={Eat08} alt="img08"/>
+             </div>
+         </div>
+
+         <div className="img-slide">
+            <div
+             className="slide-image"
+             data-swiper-parallax={parallaxAmount}
+             data-swiper-parallax-opacity={parallaxOpacity}
+             >
+                 <img src={Eat09} alt="img09"/>
              </div>
          </div>
          
