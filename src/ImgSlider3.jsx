@@ -19,7 +19,8 @@ const ImgSliderConfigs = {
     centeredSlides:true,
     speed:500,
     spaceBetween:0,
-    effect:'slide'
+    effect:'slide',
+    
 };
 
 const ImgSlider2 =() =>{
