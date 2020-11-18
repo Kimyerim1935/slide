@@ -1,5 +1,3 @@
-function logName ( name:string){
-    console.log(name);
+function logName (name: string){
+    console.log (name);
 }
-
-logName('Rim');
