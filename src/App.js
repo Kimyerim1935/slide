@@ -1,14 +1,14 @@
 import './App.css';
+import React from 'react';
 
 function App() {
-  const he=1;
-  const she=2; 
   return (
           <div className="num">
-           {he}+{she}= {he+she}<br/>
-          {he}*{she}= {he*she}<br/>
-          {he}/{she}={he/she}<br/>
-          {he}%{she}={he%she}
+          <form>
+            <input type="text" placeholder="Your Name"/>
+            <br/>
+            <button>Proceed</button>
+          </form>
     </div>
     
   );

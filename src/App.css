@@ -5,5 +5,17 @@
 }
  .num{
    width: 100px;
-   
+ }
+ .input{
+   width: 300px;
+   height: 30px;
+   padding: 10px;
+   margin: 20px;
+   font-size: 10px;
+   border-radius: 10px;
+ }
+
+ .button{
+   padding: 10px 20px;
+   font-size: 10px;
  }
