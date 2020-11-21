@@ -5,7 +5,10 @@ function App() {
   const she=2; 
   return (
           <div className="num">
-            {he+she}
+           {he}+{she}= {he+she}<br/>
+          {he}*{she}= {he*she}<br/>
+          {he}/{she}={he/she}<br/>
+          {he}%{she}={he%she}
     </div>
     
   );
