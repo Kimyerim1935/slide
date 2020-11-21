@@ -1,6 +1,5 @@
 import React from 'react';
 import 'swiper/swiper-bundle.css'
-import SwiperCore,{  Pagination } from 'swiper';
 import { Swiper , SwiperSlide } from 'swiper/react';
 import './ImgSlider.css';
 import Take01 from './SVG/Take01.jpg';

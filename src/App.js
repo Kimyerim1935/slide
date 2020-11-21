@@ -1,15 +1,13 @@
 import './App.css';
-import ImgSlider from './ImgSlider.jsx';
-import ImgSlider2 from './ImgSlider2.jsx';
-import ImgSlider3 from './ImgSlider3.jsx';
 
 function App() {
+  const he=1;
+  const she=2; 
   return (
-    <div className="App">
-          <ImgSlider />
-          <ImgSlider2 />
-          <ImgSlider3 />
+          <div className="num">
+            {he+she}
     </div>
+    
   );
 }
 
