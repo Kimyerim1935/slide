@@ -1,21 +1,30 @@
 .App {
   text-align: center;
-  width: 500px;
-  height: 500px;
+  align-items: center;
 }
  .num{
    width: 100px;
+   align-items: center;
+   background-color: blueviolet;
  }
  .input{
    width: 300px;
    height: 30px;
    padding: 10px;
    margin: 20px;
-   font-size: 10px;
-   border-radius: 10px;
+   font-size: 18px;
+   border-radius: 5px;
  }
 
  .button{
    padding: 10px 20px;
-   font-size: 10px;
+   font-size: 18px;
+ }
+
+ button:enabled {
+  background-color: coral;
+  color: beige;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
  }
