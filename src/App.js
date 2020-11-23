@@ -18,8 +18,10 @@ class App extends React.Component {
       <form>
         <input type="text" placeholder="Your Name" onChange={this.handleChange} />
         <br/>
-        <button disabled={this.state.disabled} >Proceed</button>
-
+        <button disabled={this.state.disabled} >Proceed</button><br/>
+        <input type="text" placeholder="Your address" onChange={this.handleChange} />
+        <br/>
+        <button disabled={this.state.disabled} >contact</button>
       </form>
 </div>
 
